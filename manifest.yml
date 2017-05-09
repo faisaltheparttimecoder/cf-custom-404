@@ -1,0 +1,7 @@
+---
+buildpack: python_buildpack
+applications:
+- name: Page404
+  memory: 200M
+  disk_quota: 200MB
+  command: python 404.py
